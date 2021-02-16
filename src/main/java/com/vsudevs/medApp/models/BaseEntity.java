@@ -13,8 +13,6 @@ import javax.persistence.*;
 public class BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long ID;
-
-    @Column(name = "Role")
-    private String Role;
+    @Column(name = "id")
+    private Long id;
 }
